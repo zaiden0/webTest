@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chef Brad Oki — Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Chef Brad Oki — professional chef. Replace this with your own description.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="Chef Brad Oki logo">
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1>Chef Brad Oki</h1>
+          <p>Professional chef. Catering — Classes — Private Events. Replace this text with your tagline from Facebook.</p>
+          <p><a class="btn" href="#contact">Book an event</a></p>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.svg" alt="Chef photo placeholder">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="wrap section">
+      <h2>About</h2>
+      <p>Short bio: copy your About text from your Facebook page here. Mention specialties, cuisine style, years of experience, awards, etc.</p>
+    </section>
+
+    <section id="menu" class="wrap section">
+      <h2>Services & Menu</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Catering</h3>
+          <p>Describe catering options, sample pricing, capacity.</p>
+        </div>
+        <div class="card">
+          <h3>Private Classes</h3>
+          <p>Describe the cooking classes: group size, duration, price.</p>
+        </div>
+        <div class="card">
+          <h3>Private Dining</h3>
+          <p>Describe private dining / events.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="wrap section">
+      <h2>Gallery</h2>
+      <p>Replace the images in /images with real photos and update the markup below if you want more items.</p>
+      <div class="gallery-grid">
+        <img src="images/photo1.svg" alt="Photo placeholder 1">
+        <img src="images/photo2.svg" alt="Photo placeholder 2">
+        <img src="images/photo3.svg" alt="Photo placeholder 3">
+      </div>
+    </section>
+
+    <section id="contact" class="wrap section contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:chef@example.com">chef@example.com</a> — Phone: (555) 123-4567</p>
+      <form action="#" method="post" onsubmit="alert('This is a static template. Replace form action to enable submissions.'); return false;">
+        <label>
+          Your name
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Chef Brad Oki — Replace with your legal/business name.</p>
+      <p><a href="https://facebook.com/chefbradoki" target="_blank" rel="noopener">Facebook</a> — replace/add other links</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
